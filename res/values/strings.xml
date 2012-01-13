@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GEOplannerActivity!</string>
+    <string name="app_name">GEOplanner</string>
+    <string name="sp_zd">Список задач</string>
+    <string name="login">admin</string>
+   <string name="passwd">par</string>
+   <string name="title_log">Авторизация</string>
+
+</resources>

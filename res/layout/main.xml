@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#708090">
+
+     <TextView
+         android:id="@+id/Koord"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="18dp"
+         android:layout_marginTop="24dp"
+         android:text="Координаты"
+         android:textColor="#2F4F4F"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+     <ImageView
+         android:id="@+id/Img"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:gravity="center"
+         android:padding="10px"
+         android:minHeight="25px"
+         android:minWidth="25px"
+         android:src="@drawable/mapp" />
+     <Button
+         android:id="@+id/spisok_zd"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/Img"
+         android:text="Список задач" />
+     
+</RelativeLayout>
